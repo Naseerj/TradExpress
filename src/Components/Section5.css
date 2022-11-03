@@ -1,0 +1,291 @@
+.firstdiv {
+  text-align: center;
+}
+.dee {
+  /* display: flex;
+    justify-content: space-around; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 30px;
+}
+.practicediv {
+  background-image: url(./Img/Union.png);
+  /* background-size: 50px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 300px;
+  margin-left: 70px;
+  padding: 40px;
+  border-radius: 10px;
+}
+.h44 {
+  margin-left: 10px;
+  margin-top: 0;
+}
+.flew {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.dee img {
+  width: 352px;
+}
+.tt {
+  padding: 10px;
+}
+.bayo {
+  /* width: 90px; */
+  height: 70px;
+}
+.t {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  /* row-gap: 0px;
+    column-gap: 0px; */
+  /* margin-right: 200px; */
+  /* width: 80px; */
+  position: relative;
+  right: 110px;
+}
+
+/* .movement{
+    position: absolute;
+    top: 3100px;
+    left: 70px;
+    width: 50px;
+} */
+/* .movement2{
+    position: absolute;
+    top: 3100px;
+    right: 450px;
+    
+    
+} */
+/* .movediv{
+    width: 100px;
+    background-color: rgb(216, 22, 22);
+} */
+/* .move{
+    position: absolute;
+    top: 3130px;
+    width: 300px;
+    left: 860px;
+    margin: 0 auto;
+} */
+/* .movement1{
+    position: absolute;
+    top: 3100px;
+    right: 70px;
+} */
+.red {
+  /* width: 150px; */
+  /* margin-right: 50px; */
+
+  width: 150px;
+  padding: 10px;
+}
+.blue {
+  /* width: 100px; */
+  margin-left: 90px;
+  /* padding: 20px; */
+  padding: 10px;
+  /* width: 20px; */
+}
+/* .ds{
+    display: block;
+} */
+.Ireti {
+  height: 60px;
+}
+.flit {
+  display: flex;
+  position: relative;
+  right: 110px;
+}
+.gree {
+  height: 50px;
+}
+@media (max-width: 1142px) {
+  .practicediv {
+    padding: 40px;
+    width: 300px;
+    margin-left: 50px;
+    /* height: 100px; */
+  }
+  .h44 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1081px) {
+  .practicediv {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 1029px) {
+  .practicediv {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 997px) {
+  /* .practicediv{
+        margin-left: 5px;
+    } */
+  .practicediv {
+    padding: 30px;
+    width: 250px;
+  }
+  .h44 {
+    font-size: 14px;
+  }
+  /* .flew{
+        margin-right: 20px;
+    } */
+}
+@media (max-width: 980px) {
+  /* .practicediv {
+  } */
+  .flew {
+    width: 250px;
+  }
+}
+@media (max-width: 826px) {
+  .practicediv {
+    width: 230px;
+  }
+  .flew {
+    width: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .practicediv {
+    width: 200px;
+  }
+  .flew {
+    width: 200px;
+  }
+}
+/* @media (max-width: 768px) {
+  .practicediv {
+    width: 200px;
+  }
+  .flew {
+    width: 200px;
+  }
+} */
+@media (max-width: 700px) {
+  .dee img {
+    width: 200px;
+  }
+  .red{
+    width: 100px;
+  }
+  /* .blue{
+
+  }
+  .gree{
+
+  } */
+}
+
+
+@media (max-width: 662px) {
+  .practicediv {
+    width: 180px;
+  }
+  .flew {
+    width: 180px;
+  }
+}
+
+@media (max-width: 637px) {
+  .gree{
+    height: 50px;
+    margin-left: 40px;
+  }
+  .Ireti{
+    margin-left: 50px;
+  }
+}
+@media (max-width: 599px) {
+  .practicediv{
+    width: 150px;
+  }
+  .flew{
+    width: 150px;
+  }
+  .h44{
+    font-size: 12px;
+  }
+}
+@media (max-width: 511px) {
+  .dee{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    column-gap: 1px;
+    margin-left: 80px;
+    width: 200px;
+    
+  }
+  .Ireti{
+    margin-left: 40px;
+  }
+  .practicediv{
+    width: 300px;
+    text-align: center;
+    /* margin-left: 80px; */
+  }
+  .h44{
+    font-size: 15px;
+  }
+  .firstdiv{
+    height: 1200px;
+  }
+
+}
+@media (max-width: 446px) {
+ .dee{
+  margin-left: 50px;
+  /* margin: 0 auto; */
+ }
+}
+@media (max-width: 441px) {
+  .dee img{
+    width: 200px;
+  }
+}
+/* @media (max-width: 412px) {
+  .Ireti{
+    margin-left: 0;
+  }
+} */
+@media (max-width: 406px) {
+  .dee{
+    margin-left: 30px;
+  }
+}
+@media (max-width: 370px) {
+  .dee{
+    margin-left: 20px;
+  }
+}
+  
+@media (max-width: 340px) {
+  .dee{
+    margin-left: 10px;
+  }
+  /* .dee img{
+    width: 100px;
+  } */
+  .practicediv{
+    width: 250px;
+    /* padding: 10px; */
+  }
+  .Ireti{
+    margin-left: 10px;
+  }
+}
+  

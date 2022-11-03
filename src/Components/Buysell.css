@@ -1,0 +1,232 @@
+.buyselldiv {
+  margin: 0 auto;
+  background-color: #eeedee;
+  /* width: 320px; */
+  margin-top: 30px;
+  height: 430px;
+  width: 430px;
+  border-radius: 0px;
+  text-align: center;
+  padding: 40px;
+}
+.bo{
+  width: 100%;
+  /* margin-right: 500px; */
+  /* background-color: aquamarine; */
+margin-left: 20px;
+}
+
+select {
+  width: 300px;
+}
+.buyselldiv2 {
+  text-align: center;
+  width: 330px;
+  padding: 15px;
+  margin-right: 0;
+}
+.cointext {
+  text-align: left;
+}
+.buyselltext {
+  padding: 5px;
+}
+.buyselldiv3 {
+  text-align: center;
+  width: 300px;
+  /* padding: 15px; */
+  padding-top: 35px;
+}
+.cointext2 {
+  text-align: left;
+}
+.H {
+  border-right: 1px solid black;
+  border: 1px solid;
+}
+.money2div {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.moneyinp {
+  height: 22px;
+  width: 260px;
+  padding: 0;
+}
+
+.h6 {
+  text-align: left;
+}
+.amtdiv {
+  margin-right: 20px;
+}
+.moneydiv {
+  margin-top: 25px;
+  width: 200px;
+}
+.btncontinue {
+  width: 270px;
+  border-radius: 10px;
+ 
+  background-color: blueviolet;
+  margin: 0% auto;
+}
+.buybtn{
+  width: 50%;
+  position: relative;
+  /* left: 50px; */
+  border-radius: 10px;
+  /* height: 30px; */
+  background-color: white;
+  border: none;
+}
+.sellbtn{
+  width: 50%;
+  position: relative;
+  right: 50px;
+  border-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #E4E4E4;
+  border: none;
+  
+}
+.btncontdiv{
+    margin-top: 30px;
+    text-align: center;
+}
+@media (max-width: 465px) {
+  .buyselldiv{
+    width: 400px;
+  }
+}
+@media (max-width: 420px) {
+  .buyselldiv{
+    width: 380px;
+  }
+  .btncontinue{
+    width: 250px;
+  }
+}
+@media (max-width: 400px) {
+  .buyselldiv{
+    width: 350px;
+    padding: 30px;
+  }
+  .btncontinue{
+    width: 200px;
+  }
+  select{
+    width: 245px;
+    margin: 0 auto;
+  }
+  .moneyinp{
+    width: 215px;
+  }
+  .money2div{
+    width: 100px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 370px) {
+  .buyselldiv{
+    width: 320px;
+    padding: 20px;
+  }
+  .btncontinue{
+    width: 190px;
+  }
+  select{
+    width: 225px;
+    margin: 0 auto;
+  }
+  .moneyinp{
+    width: 190px;
+  }
+  .money2div{
+    width: 210px;
+  }
+  /* .moneydiv{
+    margin-top: 20px;
+    width: 180px;
+  } */
+  .buyselldiv2{
+    padding: 10px;
+    width: 300px;
+  }
+  form{
+    width: 280px;
+  }
+  .buyselldiv3{
+    width: 270px;
+  }
+}
+@media (max-width: 340px) {
+  .buyselldiv{
+    width: 300px;
+    padding: 20px;
+  }
+  .btncontinue{
+    width: 170px;
+  }
+  select{
+    width: 225px;
+    margin: 0 auto;
+  }
+  .moneyinp{
+    width: 190px;
+  }
+  .money2div{
+    width: 210px;
+    margin-left: 5px;
+  }
+  /* .moneydiv{
+    margin-top: 20px;
+    width: 180px;
+  } */
+  .buyselldiv2{
+    padding: 10px;
+    width: 300px;
+  }
+  form{
+    width: 250px;
+  }
+  .buyselldiv3{
+    width: 240px;
+  }
+}
+@media (max-width: 330px) {
+  .buyselldiv{
+    width: 270px;
+    padding: 20px;
+  }
+  .btncontinue{
+    width: 150px;
+  }
+  select{
+    width: 225px;
+    margin: 0 auto;
+  }
+  .moneyinp{
+    width: 190px;
+  }
+  .money2div{
+    width: 210px;
+    margin-left: 0px;
+  }
+  /* .moneydiv{
+    margin-top: 20px;
+    width: 180px;
+  } */
+  .buyselldiv2{
+    padding: 10px;
+    width: 230px;
+  }
+  form{
+    width: 200px;
+  }
+  .buyselldiv3{
+    width: 220px;
+  }
+}

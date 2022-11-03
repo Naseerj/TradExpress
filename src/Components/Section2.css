@@ -1,0 +1,283 @@
+.sec2headerdiv {
+  text-align: center;
+  background-color: #e5e5e5;
+  padding: 30px;
+  /* background-color: blue; */
+  /* height: 600px; */
+}
+.Sec2Buttondiv{
+  padding: 0px;
+}
+.color{
+  /* background-color: blue; */
+}
+.sec2button{
+  border: 1px solid purple;
+  width: 130px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+.sec2cryptodiv {
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  /* display: flex;
+  justify-content: space-evenly; */
+  align-content: center;
+  background-color: #e5e5e5;
+  padding: 50px;
+}
+.Rafikidiv {
+  border: none;
+  width: 300px;
+  text-align: center;
+  background-color: white;
+  padding: 25px;
+  height: 300px;
+}
+.cryptos {
+  width: 100%;
+  background-color: #e5e5e5;
+}
+
+.Amicodiv {
+  border: none;
+  width: 300px;
+  text-align: center;
+  background-color: white;
+  padding: 25px;
+  height: 300px;
+}
+.cuatediv {
+  border: none;
+  width: 300px;
+  text-align: center;
+  background-color: white;
+  padding: 25px;
+  height: 300px;
+}
+.Rafikip {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.Rafikih3 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.cuatep {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.cuateh3 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.Amicop {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .Amicoh3 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  
+  /* @media (max-width: 1160) {
+    .rafikisec2{
+      width: 500px;
+    }
+  } */
+  .btnnone{
+    display: none;
+    text-align: center;
+  }
+  /* @media (max-width: 1071px) {
+    .sec2cryptodiv{
+      padding: 10px;
+    }
+    .Rafikidiv {
+      width: 200px;
+    }
+    .Amicodiv{
+      width: 200px;
+    }
+    .cuatediv{
+      width: 200px;
+    }
+    
+  } */
+  @media (max-width: 1029px) {
+    .sec2cryptodiv{
+      padding: 40px;
+    }
+    .Rafikidiv {
+      width: 250px;
+    }
+    .Amicodiv{
+      width: 250px;
+    }
+    .cuatediv{
+      width: 250px;
+    }
+  }
+  @media (max-width: 846px) {
+    .sec2cryptodiv{
+      padding: 30px;
+    }
+    /* .sec2headerdiv{
+      padding: 0px;
+    } */
+    .Rafikidiv {
+      width: 230px;
+      padding: 20px;
+    }
+    .Amicodiv{
+      width: 230px;
+      padding: 20px;
+    }
+    .cuatediv{
+      width: 230px;
+      padding: 20px;
+    }
+  }
+  @media (max-width: 762px) {
+    .sec2cryptodiv{
+      padding: 30px;
+    }
+    .Rafikidiv {
+      width: 200px;
+      padding: 20px;
+    }
+    .Amicodiv{
+      width: 200px;
+      padding: 20px;
+    }
+    .cuatediv{
+      width: 200px;
+      padding: 20px;
+    }
+  }
+  /* @media (max-width:630px) {
+    .sec2cryptodiv{
+      padding: 20px;
+    }
+  } */
+  @media (max-width: 668px) {
+    .sec2cryptodiv{
+      padding: 20px;
+    }
+  }
+  @media (max-width: 614px) {
+    .sec2cryptodiv{
+      padding: 10px;
+    }
+    .Amicodiv{
+      width: 150px;
+      padding: 10px;
+    }
+    .cuatediv{
+      width: 150px;
+      padding: 0px;
+    }
+  }
+  @media (max-width: 510px) {
+    .sec2cryptodiv{
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 100px;
+    }
+    .Rafikidiv {
+      border: none;
+      width: 300px;
+      text-align: center;
+      background-color: white;
+      padding: 25px;
+      height: 300px;
+      margin-bottom: 20px;
+    }
+    .Amicodiv {
+      border: none;
+      width: 300px;
+      text-align: center;
+      background-color: white;
+      padding: 25px;
+      height: 300px;
+    }
+    .cuatediv {
+      border: none;
+      width: 300px;
+      text-align: center;
+      background-color: white;
+      padding: 25px;
+      height: 300px;
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 425px) {
+    .Rafikidiv{
+      width: 250px;
+    }
+    .sec2cryptodiv{
+      padding: 70px;
+    }
+    .cuatediv{
+      width: 250px;
+    }
+    .Amicodiv{
+      width: 250px;
+    }
+  }
+  @media (max-width: 360px) {
+    .Rafikidiv{
+      width: 200px;
+    }
+    .cuatediv{
+      width: 200px;
+    }
+    .Amicodiv{
+      width: 200px;
+    }
+  }
+  @media (max-width: 360px) {
+    .Rafikidiv{
+      /* width: 200px;
+       */
+       /* margin: 0 auto; */
+    }
+    .sec2cryptodiv{
+      padding: 50px;
+    }
+    .cuatediv{
+      width: 200px;
+    }
+    .Amicodiv{
+      width: 200px;
+    }
+  }
+ 

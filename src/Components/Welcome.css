@@ -1,0 +1,42 @@
+.welcomediv{
+    text-align: center;
+    width: 400px;
+    height: 450px;
+    margin: 0% auto;
+    margin-top: 30px;
+  background-color: #eeedee;
+  padding: 30px;
+  
+}
+.pdiv{
+    padding: 20px;
+    width: 350px;
+}
+.img1{
+    height: 90px;
+    padding: 10px;
+}
+.signupbtn2{
+    padding: 20px;
+}
+.welcomebtn{
+    width: 200px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+/* @media (max-width: 470px) {
+    .welcomediv{
+        width: 360px;
+    }
+    .welcomebtn{
+        width: 190px;
+    }
+}
+@media (max-width: 440px) {
+    .welcomediv{
+        width: 120px;
+    }
+    .welcomebtn{
+        width: 150px;
+    }
+} */

@@ -1,0 +1,44 @@
+.childivsec4 {
+  text-align: center;
+  background-color: #ede9ef;
+  padding: 10px;
+}
+.parentdivsec4 {
+  padding-bottom: 70px;
+  background-color: #ede9ef;
+}
+.Storediv {
+  text-align: center;
+  background-color: #ede9ef;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 330px;
+  margin: 0 auto;
+}
+.parentdiv1store {
+  background-color: #ede9ef;
+}
+.sec4btndiv {
+  padding-top: 25px;
+}
+.sec4btn {
+    width: 290px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: blueviolet;
+    border: none;
+}
+
+@media (max-width: 337px) {
+  .Storediv{
+    width: 200px;
+  }
+  .apps{
+    width: 100px;
+
+  }
+  .plays{
+    width: 100px;
+  }
+}

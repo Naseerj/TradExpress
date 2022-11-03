@@ -1,0 +1,366 @@
+.sec3textdiv {
+  text-align: center;
+  margin: 0 auto;
+  width: 63%;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.emoji1div {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+}
+.cuate1text {
+  width: 700px;
+  height: 200px;
+  margin-top: 15%;
+  padding: 30px;
+}
+.childivsec3 {
+  display: flex;
+}
+.emojidiv {
+  margin-top: 19%;
+}
+
+.rafikiparent {
+  display: flex;
+  padding: 30px;
+}
+.flexx {
+  display: flex;
+  margin-top: 10%;
+}
+.emo2div {
+  margin-right: 20px;
+  margin-top: 12%;
+  margin-bottom: 10%;
+}
+.emo2 {
+  margin-bottom: 10%;
+}
+.cuatetext {
+  height: 200px;
+  margin-top: 96px;
+}
+
+/* .emoji2div {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+  background-color: blue;
+}
+.childiv2sec3 {
+  display: flex;
+  background-color: red;
+}
+.rafiki1text {
+  width: 700px;
+  height: 200px;
+  margin-bottom: 20%;
+  padding: 30px;
+  background-color: green;
+}
+.emojirdiv {
+    margin-top: 25%;
+    background-color: aqua;
+    width: 50px;
+  }
+.tre{
+    margin-left: 60px;
+    background-color: black;
+    width: 80%;
+} */
+@media (max-width: 1200px) {
+  .cuateimg {
+    /* width: 2px; */
+    /* height: 30px; */
+    width: 300px;
+    /* height: 150px; */
+  }
+}
+@media (max-width: 1176px) {
+  .cuateimg {
+    width: 290px;
+  }
+  .Amicoimg {
+    width: 300px;
+  }
+  .rafiki1 {
+    width: 320px;
+  }
+  .flexx {
+    display: flex;
+    margin-top: 7%;
+  }
+}
+@media (max-width: 1123px) {
+  .cuateimg {
+    width: 260px;
+  }
+  .Amicoimg {
+    width: 270px;
+  }
+  .rafiki1 {
+    width: 300px;
+  }
+  .flexx {
+    display: flex;
+    margin-top: 5%;
+  }
+}
+@media (max-width: 1047px) {
+  .cuateimg {
+    width: 200px;
+  }
+  .Amicoimg {
+    width: 200px;
+  }
+  .rafiki1 {
+    width: 240px;
+  }
+}
+@media (max-width: 1019px) {
+  /* .cuate1text{
+      width: 600px;
+    }
+    .sec3textdiv{
+      width: 60%;
+    } */
+  .childivsec3 {
+    width: 700px;
+  }
+  .cuate1text {
+    padding: 20px;
+    margin-top: 12%;
+  }
+  .emojidiv {
+    margin-top: 17%;
+  }
+}
+@media (max-width: 997px) {
+  .cuate1text {
+    padding: 10px;
+  }
+}
+@media (max-width: 980px) {
+  .cuate1text {
+    padding: 0px;
+  }
+}
+@media (max-width: 964px) {
+  .cuate1text {
+    width: 500px;
+  }
+}
+@media (max-width: 791px) {
+  .cuate1text {
+    width: 400px;
+  }
+  .emojidiv {
+    margin-top: 14%;
+    padding: 20px;
+  }
+}
+@media (max-width: 756px) {
+  .cuate1text {
+    width: 350px;
+  }
+  .flexx {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 710px) {
+  .cuate1text {
+    width: 310px;
+    margin-top: 0px;
+  }
+  .emoji1div {
+    padding: 60px;
+  }
+}
+
+/* @media (max-width : 710px) {
+    .cuate1text{
+      width: 300px;
+    }
+    .emoji1div{
+      padding: 50px;
+    }
+    
+  } */
+/* @media (max-width : 701px) {
+    .emoji1div{
+      padding: 30px;
+    }
+  } */
+@media (max-width: 695px) {
+  .cuateimg {
+    width: 150px;
+  }
+  .Amicoimg {
+    width: 150px;
+  }
+  .rafiki1 {
+    width: 220px;
+  }
+}
+@media (max-width: 600px) {
+  .cuate1text {
+    width: 290px;
+  }
+  .emoji1div {
+    padding: 50px;
+  }
+  .cuatetext {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 573px) {
+  .cuate1text {
+    width: 250px;
+  }
+  .emoji1div {
+    padding: 40px;
+  }
+  .cuatetext {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 530px) {
+  .rafiki1 {
+    width: 150px;
+  }
+}
+@media (max-width: 525px) {
+  
+  .cuate1text {
+    width: 200px;
+  }
+  .emoji1div {
+    padding: 50px;
+  }
+  .cuatetext {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 511px) {
+  .emojidiv {
+    margin-top: 0%;
+  }
+}
+@media (max-width: 499px) {
+  
+  .cuate1text {
+    width: 150px;
+  }
+  .emoji1div {
+    padding: 40px;
+  }
+  .cuatetext {
+    margin-top: 30px;
+  }
+}
+/* @media (max-width: 469px) {
+  
+  .cuate1text {
+    width: 150px;
+  }
+  .emoji1div {
+    padding: 50px;
+  }
+  .cuatetext {
+    margin-top: 30px;
+  }
+} */
+/* @media (max-width: 441px) {
+  .rafikiparent{
+    display: block;
+  }
+} */
+
+@media (max-width: 480px) {
+  .cuate1text{
+    width: 100px;
+  }
+  .fontp{
+    width: 200px;
+  }
+  .emoji1div{
+    padding: 20px;
+  }
+}
+@media (max-width: 446px) {
+
+  .emoji1div{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .rafikiparent{
+    display: grid;
+    grid-template-columns: 1fr;
+    z-index: 2;
+  
+  }
+  .rafiki1{
+    position: relative;
+    top: 250px;
+    left: 80px;
+    width: 240px;
+  }
+  .cuatetext{
+    position: relative;
+    bottom: 100px;
+  }
+  .emo2div{
+    position: relative;
+    bottom: 100px;
+  }
+  .headerchange{
+    font-size: 20px;
+  }
+  .fontp{
+    width: 300px;
+  }
+  .childivsec3{
+    width: 200px;
+  }
+  .Amicoimg{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+.cuateimg{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+}
+@media (max-width:412px) {
+  .fontp{
+    width: 250px;
+  }
+}
+@media (max-width: 406px) {
+  .fontp{
+    /* font-size: 15px; */
+    width: 250px;
+  }
+}
+@media (max-width: 355px) {
+  .fontp{
+    width: 150px;
+  }
+  .rafiki1{
+    position: relative;
+    top: 250px;
+    left: 50px;
+    width: 240px;
+  }
+
+}

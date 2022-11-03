@@ -1,0 +1,20 @@
+/* nav.navbar{
+    background-color: purple;
+} */
+.nav{
+    background-color: blueviolet;
+}
+.button15{
+    border: 1px solid white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.button21{
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
