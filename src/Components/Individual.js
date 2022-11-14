@@ -78,7 +78,7 @@ const Individual = ({setName}) => {
          <Link to='/welcome'><button className="signupbtn">Sign up</button></Link>
         </div>
         <div>
-          <p  className="para2">Already have an account ? <span className="clickbtn">Click here</span></p>
+          <p className="para2">Already have an account ? <span className="clickbtn">Click here</span></p>
         </div>
       </div>
     </div>

@@ -162,7 +162,7 @@
     .bitcoindiv{
         width: 150px;
     } */
-    .flexx1{
+    /* .flexx1{
         grid-template-columns: 1fr 1fr 1fr;
     }
     .bitcoindiv{
@@ -170,7 +170,7 @@
     }
     .soft{
         width: 200px;
-    }
+    } */
 }
 @media (max-width: 640px) {
     .flexx1{
