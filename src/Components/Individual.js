@@ -80,8 +80,6 @@ const Individual = ({setName}) => {
         <div>
           <p className="para2">Already have an account ? <span className="clickbtn">Click here</span></p>
         </div>
-
-        
       </div>
     </div>
   );
